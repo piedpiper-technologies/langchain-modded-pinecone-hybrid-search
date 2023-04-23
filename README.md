@@ -2,11 +2,14 @@
 
 This README provides an overview of a custom module **PineconeHybridVectorCreator** and the **modified PineconeHybridSearchRetriever** for Langchain. 
 
-These tools offer several advantages over the previous version of the original Hybrid Search Retriever, enhancing the generation of hybrid sparse-dense vectors from text inputs and their retrieval from a Pinecone.io hybrid index.  
+These tools offer several advantages over the previous version of the original Hybrid Search Retriever, enhancing the generation of hybrid sparse-dense vectors from text inputs and their retrieval from a Pinecone.io hybrid index.
 
-To use these custom files in your project download a copy of the `pinecone_hybrid_vector_creator.py` and add it to your project.  For the **PineconeHybridSearchRetriever** copy the raw text from the repo and paste the contents in your `./langchain/langchain/retrievers/pinecone_hybrid_search.py` file.  The `pinecone_hybrid_search.py` must be modified if you intend to use the **PineconeHybridVectorCreator** class function.
+This repo is linked to this [Discussion](https://github.com/hwchase17/langchain/discussions/3379) on Langchain for consideration as part of the offical modules if you wish to contribute to the conversation. 
 
-This repo will be linked to a disussion on [LangChain](https://github.com/hwchase17/langchain) Discussions for consideration as part of the offical modules if you wish to contribute to the conversation. 
+## How to Use in Your Projects
+To use these custom files in your project download a copy of the `pinecone_hybrid_vector_creator.py` and add it to your project.  For the **PineconeHybridSearchRetriever** copy the raw text from the repo and replace the contents of your existing `./langchain/langchain/retrievers/pinecone_hybrid_search.py` file.  The `pinecone_hybrid_search.py` file must be modified if you intend to use the **PineconeHybridVectorCreator** class function.
+
+
 
 ## Key Benefits
 
